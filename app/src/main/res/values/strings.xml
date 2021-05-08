@@ -3,4 +3,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="your_todo_is_empty_start_create_new_todo_now">Your todo is empty. Start create new todo now?</string>
+    <string name="high_priority">High Priority</string>
+    <string name="medium_priority">Medium Priority</string>
+    <string name="low_priority">Low Priority</string>
+    <string name="edit_todo">Edit ToDO</string>
+    <string name="enter_todo_titile">Enter Todo Titile</string>
+    <string name="enter_notes">Enter Notes</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="priority">Priority</string>
 </resources>

@@ -18,9 +18,9 @@ class TodoListFragment : Fragment() {
     private lateinit var viewModel: ListTodoViewModel
     private val todoListAdapter = TodoListAdapter(arrayListOf(), { item -> doClick(item) })
 
-    fun doClick(id: Int) {
+    fun doClick(item: Any) {
 //        viewModel.clearTask(item as Todo)
-        viewModel.updateIsDone(id)
+        viewModel.updateIsDone(item as Todo)
     }
 
     override fun onCreateView(
